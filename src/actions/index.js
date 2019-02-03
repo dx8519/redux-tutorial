@@ -18,5 +18,5 @@ export function addArticle(payload) {
 }*/
 
 export function getData() {
-  return { type: "GET_DATA" }
+  return { type: "DATA_REQUESTED" }
 };
